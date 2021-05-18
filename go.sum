@@ -483,8 +483,8 @@ github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69
 github.com/talos-systems/cluster-api-bootstrap-provider-talos v0.2.0-alpha.10/go.mod h1:mOZ/olE9x+nAFkA8WHZqGec9z1ZEZ+vDhMauyn4JYEc=
 github.com/talos-systems/cluster-api-bootstrap-provider-talos v0.2.0-alpha.12 h1:+cbdEpnhJXYw9NF/9qAC9Ly5b4SwwKCrcCx5UUfs8l0=
 github.com/talos-systems/cluster-api-bootstrap-provider-talos v0.2.0-alpha.12/go.mod h1:YX/xq65oTwRyztlG8dfwX7+9tZR3RY6uqBaoPrrDHAA=
-github.com/talos-systems/cluster-api-control-plane-provider-talos v0.1.0-alpha.12 h1:rn7f0jNFT2nyvCj5Erx06EIzZG1cujDhuM7a1oHz1Wc=
-github.com/talos-systems/cluster-api-control-plane-provider-talos v0.1.0-alpha.12/go.mod h1:e6Q5Gqi/wUk0rMFkVTsI3O+VK0IoIJUnNhPUxL8z9as=
+github.com/talos-systems/cluster-api-control-plane-provider-talos v0.1.0-alpha.13 h1:qcCQLwcyOiwtjaRxg+xBYjfkYQokp+3pXU1T9wpyyaE=
+github.com/talos-systems/cluster-api-control-plane-provider-talos v0.1.0-alpha.13/go.mod h1:KobqRRsnGpiMfuDcV7Hms2BJPikS2/+ya+wQqLsWjTg=
 github.com/talos-systems/crypto v0.2.1-0.20210202170911-39584f1b6e54 h1:2IGs3f0qG7f33Fv37XuYzIMxLARl4dcpwahZXLmdT2A=
 github.com/talos-systems/crypto v0.2.1-0.20210202170911-39584f1b6e54/go.mod h1:OXCK52Q0dzm88YRG4VdTBdidkPUtqrCxCyW7bUs4DAw=
 github.com/talos-systems/go-blockdevice v0.1.1-0.20201218174450-f2728a581972 h1:/yEPl6h6+pK9XIfQEiZ989GDuw6dCUBeinzUcCu6dyY=
