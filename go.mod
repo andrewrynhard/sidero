@@ -11,7 +11,6 @@ require (
 	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-logr/logr v0.4.0
-	github.com/go-logr/zapr v0.2.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/onsi/ginkgo v1.16.2
 	github.com/onsi/gomega v1.12.0
@@ -39,12 +38,11 @@ require (
 	golang.org/x/tools v0.0.0-20210101214203-2dba1e4ea05c // indirect
 	google.golang.org/grpc v1.37.1
 	google.golang.org/protobuf v1.26.0
-	k8s.io/api v0.19.3
-	k8s.io/apiextensions-apiserver v0.19.1
-	k8s.io/apimachinery v0.19.3
-	k8s.io/apiserver v0.19.3 // indirect
-	k8s.io/client-go v0.19.3
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
+	k8s.io/api v0.20.2
+	k8s.io/apiextensions-apiserver v0.20.1
+	k8s.io/apimachinery v0.20.2
+	k8s.io/client-go v0.20.2
+	k8s.io/utils v0.0.0-20210111153108-fddb29f9d009
 	sigs.k8s.io/cluster-api v0.3.12
-	sigs.k8s.io/controller-runtime v0.6.3
+	sigs.k8s.io/controller-runtime v0.8.3
 )
