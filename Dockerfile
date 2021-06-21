@@ -80,7 +80,7 @@ COPY --from=generate-build /src/app/cluster-api-provider-sidero/api ./app/cluste
 COPY --from=generate-build /src/app/metal-controller-manager/api ./app/metal-controller-manager/api
 COPY --from=generate-build /src/app/metal-controller-manager/internal/api ./app/metal-controller-manager/internal/api
 
-FROM --platform=${BUILDPLATFORM} alpine:3.13 AS release-build
+FROM --platform=${BUILDPLATFORM} alpine:3.14.0 AS release-build
 ADD https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.1.0/kustomize_v4.1.0_linux_amd64.tar.gz .
 RUN  tar -xf kustomize_v4.1.0_linux_amd64.tar.gz -C /usr/local/bin && rm kustomize_v4.1.0_linux_amd64.tar.gz
 COPY ./config ./config
